@@ -1,0 +1,31 @@
+.modal-window{
+    z-index: 100;
+    display: none;
+    padding: 50px 150px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.modal-window.active{
+    display: block;
+}
+
+.modal-window-content{
+    position: relative;
+    background-color: chartreuse;
+    padding: 15px;
+    border: 2px solid orange;
+}
+
+.close-modal{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.close-modal:hover{
+    cursor: pointer;
+}
